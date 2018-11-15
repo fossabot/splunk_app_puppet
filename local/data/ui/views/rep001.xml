@@ -1,0 +1,15 @@
+<dashboard>
+  <label>Report 001</label>
+  <row>
+    <panel>
+      <event>
+        <search>
+          <query>app="-zsh"</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="list.drilldown">none</option>
+      </event>
+    </panel>
+  </row>
+</dashboard>

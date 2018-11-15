@@ -1,0 +1,39 @@
+[app/ui]
+version = 7.2.1
+modtime = 1542283839.848960000
+
+[app/launcher]
+version = 7.2.1
+modtime = 1542283839.857574000
+
+[app/package/check_for_updates]
+version = 7.2.1
+modtime = 1542283839.859294000
+
+[views/dash001]
+owner = admin
+version = 7.2.1
+modtime = 1542285374.305355000
+
+[inputs/http%3A%2F%2Fsende]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1542287437.957944000
+
+[views/overview]
+version = 7.2.1
+modtime = 1542295748.210377000
+
+[views/overview_copy]
+owner = admin
+version = 7.2.1
+modtime = 1542290437.329623000
+
+[inputs/http%3A%2F%2Fplan_forager]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.1
+modtime = 1542292639.245215000

@@ -1,0 +1,15 @@
+<nav search_view="search">
+    <view name="overview" default='true'/>
+    <view name="search" />
+    <!--
+    <collection label="Reports">
+        <view name="rep001" default="true"/>
+        <view name="rep002" />
+    </collection>
+    -->
+    <!-- 
+    <view name="datasets" />
+    <view name="reports" />
+    <view name="alerts" /> 
+    -->
+</nav>
