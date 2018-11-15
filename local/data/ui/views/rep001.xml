@@ -1,15 +1,22 @@
-<dashboard>
-  <label>Report 001</label>
+<dashboard theme="dark">
+  <label>All Hosts</label>
   <row>
     <panel>
-      <event>
+      <table>
+        <title>All reports by last submission time</title>
         <search>
-          <query>app="-zsh"</query>
+          <query>sourcetype="puppet:detailed" 
+| table host, _time 
+| sort by -_time</query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
-        <option name="list.drilldown">none</option>
-      </event>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="percentagesRow">false</option>
+        <option name="totalsRow">true</option>
+      </table>
     </panel>
   </row>
 </dashboard>
